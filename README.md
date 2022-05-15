@@ -1,6 +1,4 @@
-# Tutorial_Testnents-Nodes
-Guide for running nodes for different projects
-Aptos fullnode setup for Testnet
+# Aptos fullnode setup for Testnet
 Official documents:
 
 Run a full node
@@ -11,10 +9,11 @@ To find latest block height use Aptos Network Dashboard
 To check your node health status try Aptos Node Informer
 To migrate your fullnode to another machine read Migrate your fullnode to another machine
 
-Hardware requirements:
+## Hardware requirements:
 For running a production grade Fullnode we recommend the following:
 CPU: 4 cores (Intel Xeon Skylake or newer)
 Memory: 8GiB RAM
+
 If running the Fullnode for development or testing purpose:
 CPU: 2 cores
 Memory: 4GiB RAM
