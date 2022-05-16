@@ -66,7 +66,7 @@ This will download the dependencies.
 
 ```
  mkdir MY_NODE_DIR/keystore
- Copy archive beta_x.zip to directory MY_NODE_DIR/keystore
+ `Copy archive beta_x.zip to directory MY_NODE_DIR/keystore`
  sudo apt install unzip 
  unzip beta_x.zip
 ```
