@@ -168,3 +168,31 @@ This update mainly improves existing commands and adds the possibility to
 ### Fixed
 
 * command `lukso network validator setup` it will create a local transaction wallet.
+
+___
+
+## **!!! 2022/05/18 [Corrected] Personal Genesis Validator Key**
+
+1. Execute: `lukso network stop`
+2. Delete the directories `data/validators` + the content of the `directory keystore`
+3. Unzip the file and place it into the `keystore` as described in the previous email
+4. Now start the network again by executing: `lukso network start`
+5. Start the validator: `lukso network start validator`
+6. Check if the logs look correct: `lukso network log validator`
+
+
+  ### Working Bootnode 0
+```
+enr:-MK4QHUjdytTpQtXvt52BBe1tK-EzURE2RQNVJGQ5iCAS--gFVJdUZU6NGr1RKYrIcj68RQbl_eThpPCSJwAQWBtCfmGAYDMWtDEh2F0dG5ldHOIAAAAAAAAAACEZXRoMpCBQMXLYgAAcf__________gmlkgnY0gmlwhCJaVcaJc2VjcDI1NmsxoQM1pj4H27XIBC_t-mq5x9GfwLq257XwacAnlu5bbUWKkYhzeW5jbmV0cwCDdGNwgjLIg3VkcIIu4A
+```
+```
+enode://0ee99dfebb1257b5e703c7d21a40d6b2558cc117e3a16e1ac4eaecf27e6474cf3757817bd65affe2de0ff3223eb2368775f9f1380f3cb915d1633638b7b37ec1@34.90.85.198:30303
+``` 
+
+### execution:
+
+    statsaddress: 35.204.4.181
+
+### consensus:
+
+    statsaddress: 34.141.143.70:9090
