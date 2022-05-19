@@ -196,8 +196,9 @@ enode://0ee99dfebb1257b5e703c7d21a40d6b2558cc117e3a16e1ac4eaecf27e6474cf3757817b
 ### consensus:
 
     statsaddress: 34.141.143.70:9090
+ 
     
-    ## **Update CLI**
+## **Update CLI**
 ```
 sudo curl https://raw.githubusercontent.com/lukso-network/lukso-cli/main/cli_downloader.sh | sudo bash
 ```
