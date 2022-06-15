@@ -38,7 +38,7 @@
 ![Screenshot_3.png](https://github.com/ShchegolevYA/Tutorial_Testnents-Nodes/blob/main/LUKSO/L16/png/Screenshot_3.png)
 
 
-## Add L16 network to Metamask
+## Add a wallet to Metamask.
 ### Import your wallet into Metamask (wallet @Lenny sent you 1111 LYXT).
 
 
